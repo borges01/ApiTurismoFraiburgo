@@ -5,4 +5,7 @@ class User < ApplicationRecord
   
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+
+  enum kind: [:admin, :collaborator]
+  enum status: [:active, :inactive]
 end
