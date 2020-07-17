@@ -46,3 +46,5 @@ gem 'dotenv-rails'
 gem 'rack-cors'
 
 gem 'rack-attack'
+
+gem 'devise'
